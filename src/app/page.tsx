@@ -338,8 +338,6 @@ export default function Webfast() {
                       overflowWrap: 'break-word'
                     }}
                     disabled={!isEditorFocused}
-                    onFocus={() => setIsEditorFocused(true)}
-                    onBlur={() => setIsEditorFocused(false)}
                   />
                   <LiveError />
                 </div>
